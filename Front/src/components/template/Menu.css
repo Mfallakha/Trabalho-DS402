@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+nav.menu {  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 40px;
+    background-color:#b3f4cf;
+    
+    
+    
+}
+
+.menu a{
+    display: flex;
+    gap: 32px; 
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+
+
+}
+
+.menu a:hover {
+    color: #000000;
+}
